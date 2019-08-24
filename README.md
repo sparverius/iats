@@ -1,9 +1,14 @@
 # minimal ats kernel for jupyter
 
+### goals:
+ * Teaching ats
+ * Sharing source code
+ * Make ats available to a larger audience.
+ * With the existence of [Google Colab](https://colab.research.google.com/), [mybinder](https://mybinder.org/) and the like we can distribute interactive notebooks using the ats kernel through a web browser.
 
 ## Manual installation
 
- * requirements:
+#### requirements:
   * gcc
   * jupyter
   * python 3
@@ -51,6 +56,7 @@ Now, if you change the source, it will be reflected in [http://localhost:8888](h
 instantly. Do not forget to click "restart" the kernel on the page as it does
 not auto-restart.
 
-## License
+### in progress:
+ * syntax highlighting! (through codemirror)
+ * many features available to program (i.e. code completion etc.)
 
-[MIT](LICENSE.txt)
