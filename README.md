@@ -10,22 +10,17 @@
 
 #### requirements:
   * gcc
-  * jupyter
-  * python 3
-  * pip
+  * python 3, pip, jupyter
   * ats-temptory
-
 
 ### steps:
  * `pip install -e . --user`
  * `cd jupyter_ats_kernel && python install_ats_kernel` 
  * `jupyter notebook`
 
-
 ### example:
 
 ![Example of notebook](example-notebook.png?raw=true "Example of notebook")
-
 
 ## for use with Docker
 
