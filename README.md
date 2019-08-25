@@ -1,26 +1,24 @@
 # minimal ats kernel for jupyter
 
+### goals:
+ * Teaching ats
+ * Sharing source code
+ * Make ats available to a larger audience.
+ * With the existence of [Google Colab](https://colab.research.google.com/), [mybinder](https://mybinder.org/) and the like we can distribute interactive notebooks using the ats kernel through a web browser.
+
+![Example of notebook](example-notebook.png?raw=true "Example of notebook")
 
 ## Manual installation
 
- * requirements:
+#### requirements:
   * gcc
-  * jupyter
-  * python 3
-  * pip
+  * python 3, pip, jupyter
   * ats-temptory
-
 
 ### steps:
  * `pip install -e . --user`
  * `cd jupyter_ats_kernel && python install_ats_kernel` 
  * `jupyter notebook`
-
-
-### example:
-
-![Example of notebook](example-notebook.png?raw=true "Example of notebook")
-
 
 ## for use with Docker
 
@@ -51,6 +49,7 @@ Now, if you change the source, it will be reflected in [http://localhost:8888](h
 instantly. Do not forget to click "restart" the kernel on the page as it does
 not auto-restart.
 
-## License
-
-[MIT](LICENSE.txt)
+### in progress:
+ * get ats kernel installed in a colab as seen [here](http://colab.research.google.com/github/akabe/ocaml-jupyter/blob/master/notebooks/install_ocaml_colab.ipynb)
+ * syntax highlighting! (through codemirror)
+ * many features available to program (i.e. code completion etc.)
