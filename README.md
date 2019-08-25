@@ -51,5 +51,9 @@ not auto-restart.
 
 ### in progress:
  * get ats kernel installed in a colab as seen [here](http://colab.research.google.com/github/akabe/ocaml-jupyter/blob/master/notebooks/install_ocaml_colab.ipynb)
+ ![Example installing notebook](img/colab_install.png?raw=true "Example of notebook")
+   ** Installs properly though finding an issue running the following example notebook
+ Still a work in progress...
+ ![Example colab notebook](img/colab_example.png?raw=true "Example of notebook")
  * syntax highlighting! (through codemirror)
  * many features available to program (i.e. code completion etc.)
