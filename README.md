@@ -16,12 +16,14 @@
   * ats-temptory
 
 ### steps:
- * `pip install -e . --user`
- * `cd iats && python install_ats_kernel` 
+ * pip install iats --user 
+ * install_ats_kernel
  * `jupyter notebook`
 
-## for use with Docker
+### package
+ * view online on pypi.org [here](https://pypi.org/project/iats/)
 
+## for use with Docker
  * `docker pull telos/jupyter-ats-kernel`
  * `docker run -p 8888:8888 telos/jupyter-ats-kernel`
  * Copy the given URL containing the token, and browse to it. For instance:
