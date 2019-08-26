@@ -6,8 +6,8 @@ WORKDIR /tmp
 
 COPY ./ atskernel
 
-RUN cd atskernel && pip install -e . --user
-RUN cd atskernel/iats && python install_ats_kernel
+RUN pip install --no-cache-dir atskernel/
+RUN cd atskernel/iats && install_ats_kernel
 
 WORKDIR /home/$NB_USER/
 
