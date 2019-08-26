@@ -8,6 +8,8 @@
 
 ![Example of notebook](extra/img/example-notebook.png?raw=true "Example of notebook")
 
+Try out [ATS in Google Colaboratory](https://colab.research.google.com/drive/1cIpPX_6blrMQNa_RA9LMGIxhE23fWNYg)
+
 ## Manual installation
 
 #### requirements:
