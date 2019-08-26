@@ -6,7 +6,7 @@
  * Make ats available to a larger audience.
  * With the existence of [Google Colab](https://colab.research.google.com/), [mybinder](https://mybinder.org/) and the like we can distribute interactive notebooks using the ats kernel through a web browser.
 
-![Example of notebook](example-notebook.png?raw=true "Example of notebook")
+![Example of notebook](extra/img/example-notebook.png?raw=true "Example of notebook")
 
 ## Manual installation
 
@@ -17,7 +17,7 @@
 
 ### steps:
  * `pip install -e . --user`
- * `cd jupyter_ats_kernel && python install_ats_kernel` 
+ * `cd iats && python install_ats_kernel` 
  * `jupyter notebook`
 
 ## for use with Docker
@@ -38,9 +38,9 @@ change the code in real-time in Docker. For that, just run the docker box like
 that:
 
 ```bash
-git clone https://github.com/sparverius/jupyter-ats-kernel.git
-cd jupyter-ats-kernel
-docker run -v $(pwd):/jupyter/jupyter_ats_kernel/ -p 8888:8888 sparverius/jupyter-ats-kernel
+git clone https://github.com/sparverius/iats.git
+cd iats
+docker run -v $(pwd):/jupyter/iats/ -p 8888:8888 sparverius/jupyter-ats-kernel
 ```
 
 This clones the source, run the kernel, and binds the current folder (the one
@@ -51,9 +51,9 @@ not auto-restart.
 
 ### in progress:
  * get ats kernel installed in a colab as seen [here](http://colab.research.google.com/github/akabe/ocaml-jupyter/blob/master/notebooks/install_ocaml_colab.ipynb)
- ![Example installing notebook](img/colab_install.png?raw=true "Example of notebook")
+ ![Example installing notebook](extra/img/colab_install.png?raw=true "Example of notebook")
    ** Installs properly though finding an issue running the following example notebook
  Still a work in progress...
- ![Example colab notebook](img/colab_example.png?raw=true "Example of notebook")
+ ![Example colab notebook](extra/img/colab_example.png?raw=true "Example of notebook")
  * syntax highlighting! (through codemirror)
  * many features available to program (i.e. code completion etc.)

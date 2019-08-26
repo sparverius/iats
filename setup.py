@@ -1,18 +1,18 @@
 from setuptools import setup
 
-setup(name='jupyter_ats_kernel',
-      version='1.0.0',
-      description='Minimalistic ATS kernel for Jupyter',
+setup(name='iats',
+      version='0.0.1',
+      description='minimal ats jupyter kernel',
       author='Richard K',
       author_email='qpotizo@gmail.com',
       license='MIT',
       classifiers=[
           'License :: OSI Approved :: MIT License',
       ],
-      url='https://github.com/sparverius/jupyter-ats-kernel/',
-      download_url='https://github.com/sparverius/jupyter-ats-kernel/tarball/1.0.0',
-      packages=['jupyter_ats_kernel'],
-      scripts=['jupyter_ats_kernel/install_ats_kernel'],
-      keywords=['jupyter', 'notebook', 'kernel', 'ats'],
+      url='https://github.com/sparverius/iats/',
+      download_url='https://github.com/sparverius/iats/tarball/0.0.1',
+      packages=['iats'],
+      scripts=['iats/install_ats_kernel'],
+      keywords=['ats', 'jupyter', 'notebook', 'kernel'],
       include_package_data=True
       )
