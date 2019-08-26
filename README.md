@@ -6,11 +6,13 @@
  * Make ats available to a larger audience.
  * With the existence of [Google Colab](https://colab.research.google.com/), [mybinder](https://mybinder.org/) and the like we can distribute interactive notebooks using the ats kernel through a web browser.
 
-![Example of notebook](extra/img/example-notebook.png?raw=true "Example of notebook")
+![Example colab notebook](extra/img/colab_example.png?raw=true "Example of notebook")
 
 Try out [ATS in Google Colaboratory](https://colab.research.google.com/drive/1cIpPX_6blrMQNa_RA9LMGIxhE23fWNYg)
 
 ## Manual installation
+
+![Example of notebook](extra/img/example-notebook.png?raw=true "Example of notebook")
 
 #### requirements:
   * gcc
@@ -54,10 +56,7 @@ instantly. Do not forget to click "restart" the kernel on the page as it does
 not auto-restart.
 
 ### in progress:
- * get ats kernel installed in a colab as seen [here](http://colab.research.google.com/github/akabe/ocaml-jupyter/blob/master/notebooks/install_ocaml_colab.ipynb)
+ * get ats kernel installed in a Google Colaboratory Notebook
  ![Example installing notebook](extra/img/colab_install.png?raw=true "Example of notebook")
-   ** Installs properly though finding an issue running the following example notebook
- Still a work in progress...
- ![Example colab notebook](extra/img/colab_example.png?raw=true "Example of notebook")
  * syntax highlighting! (through codemirror)
  * many features available to program (i.e. code completion etc.)
