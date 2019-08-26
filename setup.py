@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='iats',
-      version='0.0.1',
+      version='0.0.2',
       description='minimal ats jupyter kernel',
       author='Richard K',
       author_email='qpotizo@gmail.com',
