@@ -24,8 +24,8 @@
  * view online on pypi.org [here](https://pypi.org/project/iats/)
 
 ## for use with Docker
- * `docker pull telos/jupyter-ats-kernel`
- * `docker run -p 8888:8888 telos/jupyter-ats-kernel`
+ * `docker pull telos/iats`
+ * `docker run -p 8888:8888 telos/iats`
  * Copy the given URL containing the token, and browse to it. For instance:
  
  ```
@@ -42,7 +42,7 @@ that:
 ```bash
 git clone https://github.com/sparverius/iats.git
 cd iats
-docker run -v $(pwd):/jupyter/iats/ -p 8888:8888 sparverius/jupyter-ats-kernel
+docker run -v $(pwd):/jupyter/iats/ -p 8888:8888 sparverius/iats
 ```
 
 This clones the source, run the kernel, and binds the current folder (the one
